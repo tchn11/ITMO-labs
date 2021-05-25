@@ -1,0 +1,4 @@
+java -cp client.jar:general.jar client.Main localhost 1821
+
+export WAY_OF_THE_NINJA=collection.json
+java -cp server.jar:gson-2.8.6.jar:log4j-api-2.14.1.jar:log4j-core-2.14.1.jar:general.jar server.Main

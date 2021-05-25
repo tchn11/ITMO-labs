@@ -1,0 +1,39 @@
+server/file/FileManager.java
+ server.file.FileManager
+ server.file.FileManager$1
+server/file/ScriptManager.java
+ server.file.ScriptManager
+server/commands/Commandable.java
+ server.commands.Commandable
+server/commands/FilterStartsWithNameCommand.java
+ server.commands.FilterStartsWithNameCommand
+server/Main.java
+ server.Main
+server/commands/FilterLessThenExpelledCommand.java
+ server.commands.FilterLessThenExpelledCommand
+server/commands/AddIfMaxCommand.java
+ server.commands.AddIfMaxCommand
+server/commands/ShowCommand.java
+ server.commands.ShowCommand
+server/collection/CollectionManager.java
+ server.collection.CollectionManager
+server/commands/RemoveAllByStudentsCountCommand.java
+ server.commands.RemoveAllByStudentsCountCommand
+server/commands/InfoCommand.java
+ server.commands.InfoCommand
+server/commands/ClearCommand.java
+ server.commands.ClearCommand
+server/commands/SaveCommand.java
+ server.commands.SaveCommand
+server/Server.java
+ server.Server
+server/commands/AddCommand.java
+ server.commands.AddCommand
+server/commands/CommandManager.java
+ server.commands.CommandManager
+server/commands/UpdateIdCommand.java
+ server.commands.UpdateIdCommand
+server/commands/RemoveByIdCommand.java
+ server.commands.RemoveByIdCommand
+server/commands/RemoveByIndexCommand.java
+ server.commands.RemoveByIndexCommand

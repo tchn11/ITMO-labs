@@ -1,0 +1,6 @@
+client/console/ConsoleManager.java
+ client.console.ConsoleManager
+client/Main.java
+ client.Main
+client/Client.java
+ client.Client

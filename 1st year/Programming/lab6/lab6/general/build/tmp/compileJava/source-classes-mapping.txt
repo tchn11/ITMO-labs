@@ -1,0 +1,22 @@
+general/data/Coordinates.java
+ general.data.Coordinates
+general/data/Person.java
+ general.data.Person
+general/exeptions/EmptyIOException.java
+ general.exeptions.EmptyIOException
+general/data/Semester.java
+ general.data.Semester
+messages/CommandMsg.java
+ messages.CommandMsg
+general/exeptions/ConnectionBrokenException.java
+ general.exeptions.ConnectionBrokenException
+messages/Status.java
+ messages.Status
+general/data/StudyGroup.java
+ general.data.StudyGroup
+general/data/RowStudyGroup.java
+ general.data.RowStudyGroup
+general/exeptions/FileParsingException.java
+ general.exeptions.FileParsingException
+messages/AnswerMsg.java
+ messages.AnswerMsg

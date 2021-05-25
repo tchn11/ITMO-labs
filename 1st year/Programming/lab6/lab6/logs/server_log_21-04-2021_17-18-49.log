@@ -1,0 +1,5 @@
+INFO  | 21-04-2021 17:18:49 | file.FileManager - Открываю фаил collection.json
+INFO  | 21-04-2021 17:18:49 | file.FileManager - Коллекция успешно загружна
+INFO  | 21-04-2021 17:18:49 | server.Server - Начинаю запуск сервера
+INFO  | 21-04-2021 17:18:49 | server.Server - Сервер успешно запущен
+INFO  | 21-04-2021 17:18:49 | server.Server - Вхожу в ожидание соединения
