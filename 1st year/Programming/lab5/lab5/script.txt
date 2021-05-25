@@ -1,0 +1,4 @@
+clear
+execute_script C:\Users\akona\Desktop\Первый курс\прога\lab5\script.txt
+add
+remove_at 1

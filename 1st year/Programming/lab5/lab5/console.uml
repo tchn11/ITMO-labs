@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab5.console</OriginalElement>
+  <nodes>
+    <node x="2319.0" y="877.0">lab5.main.Main</node>
+    <node x="0.0" y="676.0">lab5.console.RemoveByIndexCommand</node>
+    <node x="2156.0" y="676.0">lab5.console.ShowCommand</node>
+    <node x="1044.0" y="676.0">lab5.console.RemoveAllByStudentsCountCommand</node>
+    <node x="0.0" y="877.0">lab5.data.StudyGroup</node>
+    <node x="1863.0" y="877.0">lab5.data.Coordinates</node>
+    <node x="559.0" y="877.0">lab5.console.CommandManager</node>
+    <node x="1426.0" y="676.0">lab5.console.SaveCommand</node>
+    <node x="3804.0" y="676.0">lab5.console.InfoCommand</node>
+    <node x="2424.0" y="676.0">lab5.console.FilterLessThenExpelledCommand</node>
+    <node x="2511.0" y="877.0">lab5.exeptions.EmptyIOException</node>
+    <node x="3452.0" y="665.0">lab5.console.AddCommand</node>
+    <node x="1888.0" y="676.0">lab5.console.ClearCommand</node>
+    <node x="2774.0" y="676.0">lab5.console.RemoveByIdCommand</node>
+    <node x="1552.0" y="877.0">lab5.file.FileManager</node>
+    <node x="2074.0" y="877.0">lab5.file.ScriptManager</node>
+    <node x="663.0" y="665.0">lab5.console.AddIfMaxCommand</node>
+    <node x="1003.0" y="877.0">lab5.data.Semester</node>
+    <node x="1228.0" y="877.0">lab5.data.Person</node>
+    <node x="1694.0" y="699.0">lab5.console.ExitCommand</node>
+    <node x="0.0" y="0.0">lab5.collection.CollectionManager</node>
+    <node x="318.0" y="676.0">lab5.console.FilterStartsWithNameCommand</node>
+    <node x="3074.0" y="665.0">lab5.console.UpdateIdCommand</node>
+    <node x="1925.0" y="476.0">lab5.console.Commandable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab5.console.FilterLessThenExpelledCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="2589.0" y="635.0" />
+      <point x="2038.7692307692307" y="635.0" />
+      <point x="26.769230769230717" y="49.5" />
+    </edge>
+    <edge source="lab5.console.ShowCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="2280.0" y="645.0" />
+      <point x="2025.3846153846155" y="645.0" />
+      <point x="13.384615384615472" y="49.5" />
+    </edge>
+    <edge source="lab5.console.ExitCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-49.5" />
+      <point x="1781.0" y="645.0" />
+      <point x="1998.6153846153845" y="645.0" />
+      <point x="-13.384615384615472" y="49.5" />
+    </edge>
+    <edge source="lab5.console.SaveCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="1550.0" y="635.0" />
+      <point x="1985.2307692307693" y="635.0" />
+      <point x="-26.769230769230717" y="49.5" />
+    </edge>
+    <edge source="lab5.console.InfoCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="3928.0" y="595.0" />
+      <point x="2092.3076923076924" y="595.0" />
+      <point x="80.30769230769238" y="49.5" />
+    </edge>
+    <edge source="lab5.console.FilterStartsWithNameCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="480.5" y="605.0" />
+      <point x="1945.076923076923" y="605.0" />
+      <point x="-66.9230769230769" y="49.5" />
+    </edge>
+    <edge source="lab5.console.UpdateIdCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-83.5" />
+      <point x="3253.0" y="615.0" />
+      <point x="2065.5384615384614" y="615.0" />
+      <point x="53.53846153846143" y="49.5" />
+    </edge>
+    <edge source="lab5.console.AddCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-83.5" />
+      <point x="3618.0" y="605.0" />
+      <point x="2078.923076923077" y="605.0" />
+      <point x="66.92307692307713" y="49.5" />
+    </edge>
+    <edge source="lab5.console.AddIfMaxCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-83.5" />
+      <point x="843.5" y="615.0" />
+      <point x="1958.4615384615386" y="615.0" />
+      <point x="-53.53846153846143" y="49.5" />
+    </edge>
+    <edge source="lab5.console.RemoveByIndexCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="149.0" y="595.0" />
+      <point x="1931.6923076923076" y="595.0" />
+      <point x="-80.30769230769238" y="49.5" />
+    </edge>
+    <edge source="lab5.console.ClearCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="lab5.console.RemoveByIdCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="2914.0" y="625.0" />
+      <point x="2052.153846153846" y="625.0" />
+      <point x="40.15384615384619" y="49.5" />
+    </edge>
+    <edge source="lab5.console.RemoveAllByStudentsCountCommand" target="lab5.console.Commandable">
+      <point x="0.0" y="-72.5" />
+      <point x="1225.0" y="625.0" />
+      <point x="1971.8461538461538" y="625.0" />
+      <point x="-40.15384615384619" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7721311475409836" x="2009.4622531939608" y="675.0882694541231" />
+  <SelectedNodes>
+    <node>lab5.main.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

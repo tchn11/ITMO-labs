@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.se.ifmo'
+
+targetCompatibility = 1.8
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'org.jetbrains:annotations:19.0.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile 'junit:junit:4.13.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar{
+    manifest{
+        attributes 'Main-Class' : "lab5.main.Main"
+    }
+}

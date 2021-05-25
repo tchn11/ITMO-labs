@@ -1,0 +1,51 @@
+lab5/console/ConsoleManager.java
+ lab5.console.ConsoleManager
+lab5/console/ClearCommand.java
+ lab5.console.ClearCommand
+lab5/console/Commandable.java
+ lab5.console.Commandable
+lab5/console/AddIfMaxCommand.java
+ lab5.console.AddIfMaxCommand
+lab5/console/FilterLessThenExpelledCommand.java
+ lab5.console.FilterLessThenExpelledCommand
+lab5/data/Semester.java
+ lab5.data.Semester
+lab5/console/ShowCommand.java
+ lab5.console.ShowCommand
+lab5/console/RemoveByIdCommand.java
+ lab5.console.RemoveByIdCommand
+lab5/console/FilterStartsWithNameCommand.java
+ lab5.console.FilterStartsWithNameCommand
+lab5/data/Person.java
+ lab5.data.Person
+lab5/collection/CollectionManager.java
+ lab5.collection.CollectionManager
+lab5/console/AddCommand.java
+ lab5.console.AddCommand
+lab5/console/RemoveByIndexCommand.java
+ lab5.console.RemoveByIndexCommand
+lab5/console/RemoveAllByStudentsCountCommand.java
+ lab5.console.RemoveAllByStudentsCountCommand
+lab5/console/SaveCommand.java
+ lab5.console.SaveCommand
+lab5/data/Coordinates.java
+ lab5.data.Coordinates
+lab5/file/FileManager.java
+ lab5.file.FileManager
+ lab5.file.FileManager$1
+lab5/console/ExitCommand.java
+ lab5.console.ExitCommand
+lab5/console/InfoCommand.java
+ lab5.console.InfoCommand
+lab5/data/StudyGroup.java
+ lab5.data.StudyGroup
+lab5/console/UpdateIdCommand.java
+ lab5.console.UpdateIdCommand
+lab5/exeptions/EmptyIOException.java
+ lab5.exeptions.EmptyIOException
+lab5/file/ScriptManager.java
+ lab5.file.ScriptManager
+lab5/main/Main.java
+ lab5.main.Main
+lab5/console/CommandManager.java
+ lab5.console.CommandManager
