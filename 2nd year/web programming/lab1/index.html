@@ -1,0 +1,345 @@
+<!DOCTUPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<title> Лабораторная №1 </title>
+		<link rel="shortcut icon" href="img/duck.png" type="image/png">
+		<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+		<style>
+		body {
+			background-color: #FCFAEA;
+			font-family: "PT Serif", serif;
+		}
+		
+		.main_div{
+			float: center;
+			padding: 10px;
+			margin: 5px;
+		}
+		
+		h2{
+			font-size: 20px;
+			color: white;
+		}
+		
+		
+		#header_left {
+			float: left;
+			width: 46%;
+			background-color: #BB5B3F;
+			padding: 5px;
+			margin: 5px;
+		}
+		
+		#right_h2 {
+			text-align: right;
+		}
+		
+		#header_right {
+			float: right;
+			width: 46%;
+			text-align: rigth;
+			background-color: #BB5B3F;
+			padding: 5px;
+			margin: 5px;
+		}
+		
+		#graph {
+			align: center;
+			float: left;
+			text-align: center;
+			width: 46%;
+			margin: 10px;
+		}
+		
+		.div_content{
+			padding: 10px;
+			background-color: white;
+		}
+		
+		.div_header {
+			height: 30px;
+			padding: 10px;
+			background-color: #F88F6F;
+			color: white;
+			font-size: 20px;
+		}
+			
+		#input_form {
+			text-align: center;
+			float: right;
+			width: 46%;
+			margin: 10px;
+		}
+		
+		#input_grid {
+			width: 95%;
+			margin: auto;
+			text-align: center;
+			background-color: white;
+		}
+
+		.input_grid_label {
+			width: 12%;
+			font-weight: bold;
+		}
+		#y_textinput {
+			width: 75%;
+			height: 20px;
+			margin: 2% 0;
+		}
+
+		.text_error {
+			border: 1px solid #ff0000;
+		}
+
+		.box_error {
+			color: #ff0000;
+		}
+
+		<!-- пример псевдоэлемента -->
+
+		.text_error::placeholder {
+			color: #ff0000;
+		}
+
+		.center_labeled {
+			display: inline-block;
+			position: relative;
+			margin: 0 1% 5%;
+			font-size: 14px;
+		}
+
+		.center_labeled label {
+			position: absolute;
+			top: 18px;
+			left: 6px;
+		}
+
+		.center_labeled .add_labeled {
+			left: 7px;
+		}
+
+		.buttons {
+			margin-top: 3%;
+		}
+
+		.button {
+			height: 27px;
+			width: 80px;
+			color: #ffffff;
+			background-color: #BB5B3F;
+			border: none;
+		}
+
+		.button:hover {
+			background-color: #F88F6F;
+		}
+		
+		.coords_column {
+			width: 12%;
+		}
+			
+		.time_column {
+			width: 25%;
+		}
+		
+		.coords_column {
+			width: 12%;
+		}
+		
+		#scroll {
+			width: 90%;
+			float: center;
+			margin: 40px;
+			padding: 10px;
+			
+		}
+
+		#result_table {
+			width: 100%;
+		}
+		
+		#result_table tr:nth-child(2n+3) {
+			background-color: #FFC6A3;
+		}
+		#result_table tr:nth-child(2n+2) {
+			background-color: white;
+		}
+		
+		#result_table tr:nth-child(2n+3):hover {
+			background-color: #E5A3A1;
+		}
+		#result_table tr:nth-child(2n+2):hover {
+			background-color: #C6C6C6;
+		}
+		
+		#table_header {
+			height: 40px;
+			background-color: #F88F6F;
+			color: white;
+		}
+		
+		</style>
+	</head>
+	
+	<body>
+		<div id="top_div" class="main_div">
+			<div id="header_left">
+				<h2>Конаныхина Антонина Александровна,  
+				группа Р3215</h2>
+			</div>
+			<img src="img/duck512.gif" width=55px></img>
+			<div id="header_right">
+				<h2 id = "right_h2">Вариант 15011</h2>
+			</div>
+		</div>
+		<div class="main_div">
+			<div id="graph">
+			<div class="div_header">
+			График
+			</div>
+				<div class="div_content">
+					<img src="img/graph.jpg" alt="График не найден" width=200px></img>
+				</div>
+			</div>
+			
+			<div id="input_form">
+			<div class="div_header">
+			Входные данные
+			</div>
+			<div class="div_content">
+				<form id="inpform" action="" method="POST">
+					
+					<table id="input_grid">
+						<!-- значение Х -->
+						<tr>
+						  <td class="input_grid_label">
+							<label>X:</label>
+						  </td>
+
+						  <td class="input_grid_value x_radio_group">
+							<div class="center_labeled">
+							  <label class="x_box_label" for="x_radio_1">-5</label>
+							  <input class="x_radio" id="x_radio_1" type="radio" name="x_val" value="-5">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="x_box_label" for="x_radio_2">-4</label>
+							  <input class="x_radio" id="x_radio_2" type="radio" name="x_val" value="-4">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="x_box_label" for="x_radio_3">-3</label>
+							  <input class="x_radio" id="x_radio_3" type="radio" name="x_val" value="-3">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="x_box_label" for="x_radio_4">-2</label>
+							  <input class="x_radio" id="x_radio_4" type="radio" name="x_val" value="-2">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="x_box_label" for="x_radio_5">-1</label>
+							  <input class="x_radio" id="x_radio_5" type="radio" name="x_val" value="-1">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="add_labeled x_box_label" for="x_radio_6">0</label>
+							  <input class="x_radio" id="x_radio_6" type="radio" name="x_val" value="0">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="add_labeled x_box_label" for="x_radio_7">1</label>
+							  <input class="x_radio" id="x_radio_7" type="radio" name="x_val" value="1">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="add_labeled x_box_label" for="x_radio_8">2</label>
+							  <input class="x_radio" id="x_radio_8" type="radio" name="x_val" value="2">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="add_labeled x_box_label" for="x_radio_9">3</label>
+							  <input class="x_radio" id="x_radio_9" type="radio" name="x_val" value="3">
+							</div>
+						  </td>
+						</tr>
+
+						<!-- значение Y -->
+						<tr>
+						  <td class="input_grid_label">
+							<label for="y_textinput"> Y:</label>
+						  </td>
+
+						  <td class="input_grid_value">
+							<input id="y_textinput" type="text" name="y_val" maxlength="5" autocomplete="off" placeholder="Ведите число от -3 до 5...">
+						  </td>
+						</tr>
+
+						<!-- значение R -->
+						<tr>
+						  <td class="input_grid_label">
+							<label> R:</label>
+						  </td>
+						  
+						  <td class="input_grid_value">
+							<div class="center_labeled">
+							  <label class="r_box_label" for="r_checkbox_1">1</label>
+							  <input class="r_checkbox" id="r_checkbox_1" type="checkbox" name="r_val" value="1">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="r_box_label" for="r_checkbox_2">2</label>
+							  <input class="r_checkbox" id="r_checkbox_2" type="checkbox" name="r_val" value="2">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="r_box_label" for="r_checkbox_3">3</label>
+							  <input class="r_checkbox" id="r_checkbox_3" type="checkbox" name="r_val" value="3">
+							</div>
+
+							<div class="center_labeled">
+							  <label class="r_box_label" for="r_checkbox_4">4</label>
+							  <input class="r_checkbox" id="r_checkbox_4" type="checkbox" name="r_val" value="4">
+							</div>
+							<div class="center_labeled">
+							  <label class="r_box_label" for="r_checkbox_5">5</label>
+							  <input class="r_checkbox" id="r_checkbox_5" type="checkbox" name="r_val" value="5">
+							</div>
+						  </td>
+						</tr>
+
+						<!-- кнопки -->
+						
+						<tr>
+						  <td colspan="2">
+							<div class="buttons">
+							  <input class="button" type="submit" value="Отправить">
+							  <input class="button" type="reset" value="Стереть">
+							</div>
+						  </td>
+						</tr>
+					  </table>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- таблица -->
+		<div id="scroll">
+			<table id="result_table" cols=6>
+				<tr id="table_header">
+				  <th class="coords_column">X </th>
+				  <th class="coords_column">Y </th>
+				  <th class="coords_column">R </th>
+				  <th class="time_column">Текущее время</th>
+				  <th class="time_column">Время выполнения</th>
+				  <th class="result_column">Результат</th>
+				</tr>
+			</table>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+	
+</html>
