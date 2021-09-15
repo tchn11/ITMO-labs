@@ -1,0 +1,48 @@
+<svg width="220" height="220" class="svg-graph" xmlns="http://www.w3.org/2000/svg">
+
+    <!-- X-Axis -->
+    <line class="axis" x1="10" y1="110" x2="210" y2="110" stroke="black" />
+    <polygon points="210,110 200,105 200,115"/>
+
+    <!-- Y-Axis -->
+    <line class="axis" x1="110" y1="10" x2="110" y2="210" stroke="black" />
+    <polygon points="110,10 105,20 115,20"/>
+
+    <!-- X-Axis coordinates-->
+    <line class="coordinate-line" x1="43" y1="105" x2="43" y2="115" stroke="black" />
+    <text class="coordinate-text coordinate-text_minus-Rx" x="33" y="100" font-size="14">-R</text>
+
+    <line class="coordinate-line" x1="76" y1="105" x2="76" y2="115" stroke="black" />
+    <text class="coordinate-text coordinate-text_minus-half-Rx" x="66" y="100" font-size="14">-R/2</text>
+
+    <line class="coordinate-line" x1="143" y1="105" x2="143" y2="115" stroke="black" />
+    <text class="coordinate-text coordinate-text_plus-half-Rx" x="138" y="100" font-size="14">R/2</text>
+
+    <line class="coordinate-line" x1="176" y1="105" x2="176" y2="115" stroke="black" />
+    <text class="coordinate-text coordinate-text_plus-Rx" x="171" y="100" font-size="14">R</text>
+
+    <!-- Y-Axis coordinates-->
+    <line class="coordinate-line" x1="105" y1="176" x2="115" y2="176" stroke="black" />
+    <text class="coordinate-text coordinate-text_minus-Ry" x="120" y="181" font-size="14">-R</text>
+
+    <line class="coordinate-line" x1="105" y1="143" x2="115" y2="143" stroke="black" />
+    <text class="coordinate-text coordinate-text_minus-half-Ry" x="120" y="148" font-size="14">-R/2</text>
+
+    <line class="coordinate-line" x1="105" y1="76" x2="115" y2="76" stroke="black" />
+    <text class="coordinate-text coordinate-text_plus-half-Ry" x="120" y="81" font-size="14">R/2</text>
+
+    <line class="coordinate-line" x1="105" y1="43" x2="115" y2="43" stroke="black" />
+    <text class="coordinate-text coordinate-text_plus-Ry" x="120" y="48" font-size="14">R</text>
+
+    <!-- Triangle -->
+    <polygon class="svg-figure triangle-figure" points="43,110 110,110 110,176"
+             fill="blue" fill-opacity="0.25" stroke="darkblue" stroke-opacity="0.5" />
+
+    <!-- Rectangle -->
+    <polygon class="svg-figure rectangle-figure" points="110,176 176,176 176,110 110,110"
+             fill="yellow" fill-opacity="0.25" stroke="#CCCC00" stroke-opacity="0.5" />
+
+    <!-- Circle -->
+    <path class="svg-figure circle-figure" d="M 111 76 A 66 66 0 0 0 76 110 L 110 110 Z"
+          fill="green" fill-opacity="0.25" stroke="darkgreen" stroke-opacity="0.5"/>
+</svg>
