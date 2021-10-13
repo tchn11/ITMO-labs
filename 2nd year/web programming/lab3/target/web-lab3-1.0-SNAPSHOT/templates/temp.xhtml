@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<f:view>
+    <h:head>
+        <!--<meta name="author" content="Конаныхина Антонина Александровна"/>-->
+        <h:outputStylesheet library="css" name="style.css"/>
+        <link rel="icon" type="image/jpg" href="#{resource['/img/duck.png']}"/>
+        <ui:insert name="head">
+            Хочу спать
+        </ui:insert>
+    </h:head>
+
+    <h:body>
+        <div id="content">
+
+            <div id="top_div" class="main_div">
+                <div id="header_left">
+                    <h2>Конаныхина Антонина Александровна,
+                        группа Р3215</h2>
+                </div>
+                <img src="resources/img/duck512.gif" width="55px" alt="41"/>
+                <div id="header_right">
+                    <h2 id="right_h2">Вариант 15311</h2>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ui:insert name="content">
+                Содержимое
+            </ui:insert>
+        </div>
+    </h:body>
+</f:view>
+
+</html>

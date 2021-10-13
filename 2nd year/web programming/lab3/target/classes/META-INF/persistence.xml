@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="my_unit">
+        <jta-data-source>java:jboss/datasources/PostgreDataSource</jta-data-source>
+        <class>Lab2.beans.Raw</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:postgresql://pg:5432/studs"/>
+            <property name="eclipselink.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="eclipselink.jdbc.user" value="s314929"/>
+            <property name="eclipselink.jdbc.password" value="ooo222"/>
+        </properties>
+    </persistence-unit>
+</persistence>

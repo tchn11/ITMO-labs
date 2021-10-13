@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:jsp="http://xmlns.jcp.org/jsf/html">
+    <ui:composition template="templates/temp.xhtml">
+        <ui:define name="head">
+              <title>Лабораторная №3 - график</title>
+              <meta name="description" content="Лабораторная работа №3 по дисциплине веб-программирование - график"/>
+              <h:outputStylesheet library="css" name="style.css"/>
+              <h:outputScript library="js" name="main.js"/>
+        </ui:define>
+
+        <ui:define name="content">
+            <div class="main_div">
+                <div id="graph">
+                    <div class="div_header">
+                        График
+                    </div>
+                    <div id="graph_div" class="div_content">
+                        <object class="result-graph" type="image/svg+xml" data="resources/img/graph.svg">
+                            <img src="resources/img/graph.jpg" alt="График не найден" width="220" height="220"/>
+                        </object>
+                        <canvas class="graph_canvas" width="220" height="220">Интерктивная область графика</canvas>
+                    </div>
+                </div>
+
+                <div id="input_form">
+                    <div class="div_header">
+                        Входные данные
+                    </div>
+                    <div class="div_content">
+                        <h:form id="inpform">
+
+                            <table id="input_grid">
+                                <!-- значение Х -->
+                                <tr>
+                                    <td class="input_grid_label">
+                                        <label>X:</label>
+                                    </td>
+
+                                    <td class="input_grid_value">
+                                        <h:inputHidden id="x" value="#{beans.raw.x_val}"/>
+                                        <h:outputText id="slider_disp" value="Значение X: #{beans.raw.x_val}"/>
+                                        <p:slider for="x" id="x_slider" minValue="-3.0" maxValue="3.0" step="0.5" onchange="updateText()">
+                                            <p:ajax oncomplete="updateText();"/>
+                                        </p:slider>
+                                    </td>
+                                </tr>
+
+                                <!-- значение Y -->
+                                <tr>
+                                    <td class="input_grid_label">
+                                        <label> Y:</label>
+                                    </td>
+
+                                    <td class="input_grid_value">
+                                        <p:inputNumber id="y-text" maxlength="5"
+                                                       value="#{beans.raw.y_val}"
+                                                       decimalSeparator="."
+                                                       minValue="-5" maxValue="5"
+                                                       decimalPlaces="2"
+                                                       autocomplete="off"
+                                                       thousandSeparator="false"
+                                                       required="true"/>
+                                    </td>
+                                </tr>
+
+                                <!-- значение R -->
+                                <tr>
+                                    <td class="input_grid_label">
+                                        <label> R:</label>
+                                    </td>
+                                    <td class="input_grid_value">
+                                        <h:outputText id="r_disp" value="Значение R: ${beans.raw.r_val}"/>
+                                        <br/>
+                                        <h:commandLink styleClass="r_buttons" action="${beans.raw.r1}" value="1.0">
+                                            <p:ajax oncomplete="r1();updateRText();"/>
+                                        </h:commandLink>
+                                        <h:commandLink styleClass="r_buttons" action="${beans.raw.r2}" value="2.0">
+                                            <p:ajax oncomplete="r2();updateRText();"/>
+                                        </h:commandLink>
+                                        <h:commandLink styleClass="r_buttons" action="${beans.raw.r3}" value="3.0">
+                                            <p:ajax oncomplete="r3();updateRText();"/>
+                                        </h:commandLink>
+                                        <h:commandLink styleClass="r_buttons" action="${beans.raw.r4}" value="4.0">
+                                            <p:ajax oncomplete="r4();updateRText();"/>
+                                        </h:commandLink>
+                                        <h:commandLink styleClass="r_buttons" action="${beans.raw.r5}" value="5.0">
+                                            <p:ajax oncomplete="r5();updateRText();"/>
+                                        </h:commandLink>
+                                    </td>
+                                </tr>
+
+                                <!-- кнопки -->
+
+                                <tr>
+                                    <td colspan="2">
+                                        <div class="buttons">
+                                            <p:commandButton id="submit_button" class="button" value="Отправить"
+                                                             action="#{beans.addRow}" update="@all">
+                                            </p:commandButton>
+                                            <p:commandButton id="clear_button" class="button" value="Стереть"
+                                                             action="#{beans.clear}" update="@all">
+                                            </p:commandButton>
+                                            <p:button id="return_button" styleClass="button" outcome="goToIndex" value="Вернуться"/>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </h:form>
+                    </div>
+                </div>
+            </div>
+            <!-- таблица -->
+            <div id="scroll">
+                <h:dataTable value="#{beans.raws}" var="raw" id="result_table">
+                    <h:column>
+                        <f:facet id="table_header" name="header">X</f:facet>
+                        #{raw.x_val}
+                    </h:column>
+                    <h:column>
+                        <f:facet id="table_header" name="header">Y</f:facet>
+                        #{raw.y_val}
+                    </h:column>
+                    <h:column>
+                        <f:facet id="table_header" name="header">R</f:facet>
+                        #{raw.r_val}
+                    </h:column>
+                    <h:column>
+                        <f:facet id="table_header" name="header">Текущее время</f:facet>
+                        #{raw.time}
+                    </h:column>
+                    <h:column>
+                        <f:facet id="table_header" name="header">Результат</f:facet>
+                        #{raw.result ? "Попал": "Не попал"}
+                    </h:column>
+                </h:dataTable>
+            </div>
+        </ui:define>
+    </ui:composition>
+</html>

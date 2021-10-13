@@ -1,0 +1,200 @@
+body {
+    background-color: #FCFAEA;
+    font-family: "PT Serif", serif;
+}
+
+.main_div{
+    float: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+h2{
+    font-size: 20px;
+    color: white;
+}
+
+#header_left {
+    float: left;
+    width: 46%;
+    background-color: #BB5B3F;
+    padding: 5px;
+    margin: 5px;
+}
+
+#right_h2 {
+    text-align: right;
+}
+
+#header_right {
+    float: right;
+    width: 46%;
+    text-align: rigth;
+    background-color: #BB5B3F;
+    padding: 5px;
+    margin: 5px;
+}
+
+#graph {
+    align: center;
+    float: left;
+    text-align: center;
+    width: 46%;
+    margin: 10px;
+}
+
+.div_content{
+    padding: 10px;
+    background-color: white;
+}
+
+.div_header {
+    height: 30px;
+    padding: 10px;
+    background-color: #F88F6F;
+    color: white;
+    font-size: 20px;
+}
+
+#input_form {
+    text-align: center;
+    float: right;
+    width: 46%;
+    margin: 10px;
+}
+
+#input_grid {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.input_grid_label {
+    width: 12%;
+    font-weight: bold;
+}
+#y_textinput {
+    width: 75%;
+    height: 20px;
+    margin: 2% 0;
+}
+
+.text_error {
+    border: 1px solid #ff0000;
+}
+
+.box_error {
+    color: #ff0000;
+}
+
+.text_error::placeholder {
+    color: #ff0000;
+}
+
+.center_labeled {
+    display: inline-block;
+    position: relative;
+    margin: 0 1% 5%;
+    font-size: 14px;
+}
+
+.center_labeled label {
+    position: absolute;
+    top: 18px;
+    left: 6px;
+}
+
+.center_labeled .add_labeled {
+    left: 7px;
+}
+
+.buttons {
+    margin-top: 3%;
+}
+
+.button {
+    height: 27px;
+    width: 150px;
+    color: #ffffff;
+    background-color: #BB5B3F;
+    border: none;
+}
+
+.button:hover {
+    background-color: #F88F6F;
+}
+
+.coords_column {
+    width: 12%;
+}
+
+.time_column {
+    width: 25%;
+}
+
+.coords_column {
+    width: 12%;
+}
+
+#scroll {
+    width: 90%;
+    float: center;
+    margin: 40px;
+    padding: 10px;
+
+}
+
+#result_table {
+    width: 100%;
+}
+
+#result_table>tbody tr:nth-child(2n+1) {
+    background-color: #FFC6A3;
+}
+#result_table>tbody tr:nth-child(2n+2) {
+    background-color: white;
+}
+
+#result_table>tbody tr:nth-child(2n+1):hover {
+    background-color: #E5A3A1;
+}
+#result_table>tbody tr:nth-child(2n+2):hover {
+    background-color: #C6C6C6;
+}
+
+#result_table>thead {
+    height: 40px;
+    background-color: #F88F6F;
+    color: white;
+}
+
+.graph_canvas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#graph_div{
+    position: relative;
+}
+
+.r_buttons{
+    margin-left: 10px;
+    color: #ffffff;
+    background-color: #BB5B3F;
+    text-decoration: none;
+}
+
+.r_buttons:hover{
+    background-color: #F88F6F;
+}
+
+#clock{
+    text-align: center;
+}
+
+#start_button{
+    left: 45%;
+}
