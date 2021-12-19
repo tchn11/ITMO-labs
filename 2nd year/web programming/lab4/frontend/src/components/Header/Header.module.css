@@ -1,0 +1,34 @@
+.main-header{
+    display: flex;
+    padding: 1em;
+    font-size: 15px;
+}
+
+.main-header__content{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.info {
+    margin-right: auto;
+}
+
+.author {
+    text-align: right;
+}
+
+@media (max-width: 757px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .author {
+        text-align: center;
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    background-color: #e9e6ee;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.section-header {
+    position: relative;
+    height: 2.8em;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.theme {
+    color: white;
+    background-color: #BB5B3F;
+}
+
+.section-header__text {
+    display: inline-block;
+    margin-top: 0.8em;
+}

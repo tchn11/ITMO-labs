@@ -1,0 +1,13 @@
+.control-button {
+    width: 90px;
+    height: 27px;
+    font-size: 13px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #ffffff;
+    background-color: #BB5B3F;
+    border: none;
+}
+
+.control-button:hover {
+    background-color: #F88F6F;
+}
