@@ -1,0 +1,18 @@
+.main-container__item {
+    margin: 20px;
+}
+
+.main-container__item_left-column {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.main-container__item_table {
+    flex-grow: 4;
+    min-width: 50%;
+}
+
+.column-container__item {
+    flex-basis: 220px;
+}

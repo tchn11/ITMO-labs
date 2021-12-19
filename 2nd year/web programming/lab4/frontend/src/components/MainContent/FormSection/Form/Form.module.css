@@ -1,0 +1,37 @@
+.values-form {
+    text-align: center;
+}
+
+.values-form__container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.values-form__label {
+    display: inline-block;
+    min-width: 30px;
+    margin-right: 0;
+}
+
+.values-form__label:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.values-form__label-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.values-form__control {
+    flex-grow: 1;
+    min-width: 5px;
+}
+
+.values-form__control-container * {
+    margin: 5px;
+}
