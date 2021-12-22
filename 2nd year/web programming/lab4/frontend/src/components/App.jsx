@@ -27,7 +27,7 @@ const App = (props) => {
         return (
             <div>
                 <HeaderContainer />
-                <TitleHelmet title="Основаня страница" />
+                <TitleHelmet title="Основная страница" />
                 <MainContent />
             </div>
         );

@@ -2,9 +2,9 @@ import authAPI from "../../api/authAPI";
 import { getEntries, clearEntries } from './table'
 import {clearCurrent} from "./values";
 
-const SET_LOADING = 'web-lab4/auth/SET_LOADING';
-const SET_SERVER_ERROR_MESSAGE = 'web-lab4/auth/SET_SERVER_ERROR_MESSAGE';
-const SET_LOGGED_USER = 'web-lab4/auth/SET_LOGGED_USER';
+const SET_LOADING = '/auth/SET_LOADING';
+const SET_SERVER_ERROR_MESSAGE = '/auth/SET_SERVER_ERROR_MESSAGE';
+const SET_LOGGED_USER = '/auth/SET_LOGGED_USER';
 
 const initialState = {
     isLoading: false,

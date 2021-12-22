@@ -10,7 +10,7 @@ const CLEAR_CURRENT = 'web-lab4/values/CLEAR_CURRENT';
 const initialState = {
     rMin: -3,
     rMax: 5,
-    rCurrent: 3,
+    rCurrent: undefined,
     xMin: -3,
     xMax: 5,
     xCurrent: undefined,
@@ -50,7 +50,7 @@ export default function valueReducer(state = initialState, action = {}) {
                 {},
                 state,
                 {
-                    rCurrent: 3,
+                    rCurrent: undefined,
                     xCurrent: undefined,
                     yCurrent: undefined
                 }

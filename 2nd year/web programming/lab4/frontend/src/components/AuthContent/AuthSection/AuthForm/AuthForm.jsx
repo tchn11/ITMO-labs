@@ -9,11 +9,11 @@ const validate = values =>{
     const errors = {}
 
     if (!values.username && !values.password){
-        errors.errorMessage = "Введте логин и пароль.";
+        errors.errorMessage = "Введите логин и пароль.";
     } else if(!values.username){
-        errors.errorMessage = "Введте логин.";
+        errors.errorMessage = "Введите логин.";
     } else if(!values.password){
-        errors.errorMessage = "Введте пароль.";
+        errors.errorMessage = "Введите пароль.";
     }
 
     return errors;

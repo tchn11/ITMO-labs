@@ -2,7 +2,8 @@ import { connect } from 'react-redux';
 import Graph from './Graph'
 import {
     changeX,
-    changeY
+    changeY,
+    checkEntry,
 } from '../../../../redux/modules/values';
 
 function mapStateToProps(state) {
@@ -23,7 +24,8 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
     return {
         changeX: (value) => dispatch(changeX(value)),
-        changeY: (value) => dispatch(changeY(value))
+        changeY: (value) => dispatch(changeY(value)),
+        checkEntry: () => dispatch(checkEntry())
     };
 }
 
