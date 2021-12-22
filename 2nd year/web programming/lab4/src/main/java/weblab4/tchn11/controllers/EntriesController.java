@@ -23,14 +23,12 @@ public class EntriesController {
 
     @GetMapping
     ResponseEntity<?> getUserEntries(Principal principal){
-        System.out.println("Get_entry");
         User user = (User) userService.loadUserByUsername(principal.getName());
         return ResponseEntity.ok(entryRepository.findByUser(user));
     }
 
     @PostMapping
     ResponseEntity<?> addEntry(@Validated @RequestBody EntryData entryData, Principal principal){
-        System.out.println("Post_entry");
         User user = (User) userService.loadUserByUsername(principal.getName());
         return ResponseEntity.ok(entryRepository.save(new Entry(
                 entryData.getX(),
@@ -41,7 +39,6 @@ public class EntriesController {
 
     @DeleteMapping
     ResponseEntity<?> deleteUserEntries(Principal principal) {
-        System.out.println("Delete_entry");
         User user = (User) userService.loadUserByUsername(principal.getName());
         return ResponseEntity.ok(entryRepository.deleteByUser(user));
     }

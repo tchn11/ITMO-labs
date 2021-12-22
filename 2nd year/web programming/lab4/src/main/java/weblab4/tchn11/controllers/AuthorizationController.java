@@ -28,7 +28,6 @@ public class AuthorizationController {
 
     @PostMapping("/login")
     ResponseEntity<?> login(@Validated @RequestBody UserData userData){
-        System.out.println("login");
         try{
             User user = (User) userService.loadUserByUsername(userData.getUsername());
             if (user == null){
@@ -46,7 +45,6 @@ public class AuthorizationController {
 
     @PostMapping("/register")
     ResponseEntity<?> register(@Validated @RequestBody UserData userData){
-        System.out.println("register");
         try{
             if (userService.loadUserByUsername(userData.getUsername()) != null){
                 throw new IllegalArgumentException();

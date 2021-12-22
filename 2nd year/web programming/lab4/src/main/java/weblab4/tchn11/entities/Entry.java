@@ -8,9 +8,9 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
-@Data
+@Data //generate getters and setters
 @NoArgsConstructor
-@Entity
+@Entity //data base
 @Table(name = "wl4_entry")
 public class Entry {
     @Id
@@ -43,15 +43,15 @@ public class Entry {
     }
 
     private boolean checkTriangle() {
-        return x <= 0 && y <= 0 && y >= (-x - r);
+        return x >= 0 && y >= 0 && x <= -y*2 + r;
     }
 
     private boolean checkRectangle() {
-        return x <= 0 && y >= 0 && x <= r && y >= -r;
+        return x <= 0 && y <= 0 && x >= -r/2 && y >= -r;
     }
 
     private boolean checkCircle() {
-        return x >= 0 && y >= 0 && x * x + y * y <= r * r / 4;
+        return x >= 0 && y <= 0 && x * x + y * y <= r * r;
     }
 
 

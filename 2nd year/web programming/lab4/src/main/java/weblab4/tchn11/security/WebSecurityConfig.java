@@ -72,7 +72,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter implements W
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class)
-                .authorizeRequests().antMatchers("/api", "/auth", "/web-lab4", "/", "/*").permitAll()
+                .authorizeRequests().antMatchers("/api/auth/**", "/static/**", "/**").permitAll()
                 .anyRequest().authenticated();
 
     }
