@@ -53,7 +53,11 @@
 + [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/web%20programming/lab3)
 + [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/web%20programming/lab4)
 
-
+### Низкоуровневое программирование
++ [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-io-library)
++ [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-dictionary)
++ [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-image-rotation)
++ [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-memory-allocator)
 
 
 
