@@ -62,5 +62,8 @@
 ### Вычислительная математика
 + [Метод Гаусса-Зейделя](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/gauss-seidel%20method)
 
+![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
+
+
 
 
