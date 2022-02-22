@@ -59,7 +59,8 @@
 + [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-image-rotation)
 + [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/low-level%20programming/assignment-memory-allocator)
 
-
+### Вычислительная математика
++ [Метод Гаусса-Зейделя](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/gauss-seidel%20method)
 
 
 
