@@ -2,8 +2,8 @@ import data_io
 import numpy as np
 
 #Поиск производной
-def find_div(function, h = 0.0000001):
-    return lambda x: (function(x + h) - function(x - h)) / (2 * h)
+def find_div(function, h = 0.000000001):
+    return lambda x: (function(x+h) - function(x-h)) / (2*h)
 
 #Табличный способ поиска интервала
 def find_interval(function, step):
@@ -32,9 +32,12 @@ def secant_method(function, a, b, error):
         x_prev_prev = b
         x_prev = b - 0.001
     x_current = x_prev * 1000 + 10
+    print(x_prev)
+    x_prev = b
     iterations = 0
     #Поиск корней, отлавливаем условие остановки
-    while (abs(x_current - x_prev_prev) > error):
+    #while (abs(x_current - x_prev_prev) > error):
+    while (abs((function(x_prev))) > error):
         x_current = x_prev - ((x_prev - x_prev_prev) / (function(x_prev) - function(x_prev_prev))) * function(x_prev)
         x_prev_prev = x_prev
         x_prev = x_current
@@ -45,22 +48,53 @@ def secant_method(function, a, b, error):
 def iterrations_method(function, a, b, error):
     dev_a = find_div(function)(a)
     dev_b = find_div(function)(b)
+
+    print("Производная в точке A: " + str(dev_a))
+    print("Производная в точке B: " + str(dev_b))
+
+    lyambd_a = -(1 / dev_a)
+    lyambd_b = - (1 / dev_b)
+
+    print("Лямбда А = " + str(lyambd_a))
+    print("Лямбда B = " + str(lyambd_b))
+
     if (dev_a > dev_b):
-        lyambd = -1 / dev_a
+        lyambd = lyambd_a
     else:
-        lyambd = -1 / dev_b
+        lyambd = lyambd_b
+
+
+    fi = lambda x: x + lyambd * function(x)
+
+    fi_s = find_div(fi)
+
+    fi_s_a = fi_s(a)
+    fi_s_b = fi_s(b)
+
+    print("Производная фи в А: " + str(fi_s_a))
+    print("Производная фи в B: " + str(fi_s_b))
+
+    if (abs(fi_s(a)) > 1 or abs(fi_s(b)) > 1):
+        print("Не удовлетворяет достаточному условию сходимости")
+    else:
+        print("Удовлетворяет достаточному условию сходимости")
 
     x_current = a
     x_prev = a * 1000 + 10
 
     iterations = 0
 
+
     #Поиск корней
-    while (abs(x_prev - x_current) > error):
+
+    while (abs(x_prev - x_current) > error) or (abs(function(x_current)) > error):
+        #(abs(x_prev - x_current) > error) and abs(function(x_current)) > error) and
+
         x_prev = x_current
         x_current = x_prev + lyambd * function(x_prev)
+        print(x_current, x_prev, function(x_current))
         iterations += 1
-        if (iterations > 100):
+        if (iterations > 1000):
             print("Алгоритм расходится")
             exit()
 
