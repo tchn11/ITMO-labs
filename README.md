@@ -65,7 +65,7 @@
 + [Численное интегрирование](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/numerical%20integration)
 
 ### Методы и средства программной инженерии
-+ [1 лабораторная](https://drive.google.com/drive/u/1/folders/1bTyaHTkouao60oiQ4PcAlgW3mXXGriMI)
++ [1 лабораторная](https://drive.google.com/file/d/1sKBpwf5uarhDeyq492nrXkobdqR6O143/view)
 
 ![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
 
