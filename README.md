@@ -63,6 +63,7 @@
 + [Метод Гаусса-Зейделя](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/gauss-seidel%20method)
 + [Нелинейные уравнения](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/nonlinear_equations) 
 + [Численное интегрирование](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/numerical%20integration)
++ [Аппроксимация функции МНК](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/approximation)
 
 ### Методы и средства программной инженерии
 + [1 лабораторная](https://drive.google.com/file/d/1sKBpwf5uarhDeyq492nrXkobdqR6O143/view)
