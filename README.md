@@ -72,6 +72,9 @@
 ### Теория вероятностей
 + [5 практическая](https://github.com/tchn11/ITMO-labs/blob/main/2nd%20year/probability%20theory/5th%20practice)
 
+### Встроенные системы
++ [Онлайн-курс](https://github.com/zavar152/EmbeddedSystemsITMO2022)
+
 ![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
 
 
