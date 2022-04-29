@@ -78,6 +78,30 @@ for i in var_data_without_copies[1:]:
     prev = i
 print(f"Для {prev} < x: {var_summ}")
 print()
+
+
+print('Интервальный статистический ряд:')
+h = round((var_data_without_copies[-1]-var_data_without_copies[0]) /(1+math.log(20,2)),1)
+start = var_data_without_copies[0] - h/2
+finish = start + h
+arr_fr1 = []
+arr_fr2 = []
+num = 0
+for i in var_data_without_copies:
+ if i < finish:
+  num += stat_arr[i]
+ else:
+  arr_fr1.append((start+finish)/2)
+  arr_fr2.append(num/len(var_data))
+  print("[", start, ", ", finish, "): частота: ", num, " частотность: ", num/len(var_data))
+  num = 0
+  start = finish
+  finish = start + h
+  num += stat_arr[i]
+arr_fr1.append((start+finish)/2)
+arr_fr2.append(num/len(var_data))
+print("[", start, ", ", finish, "): частота: ", num, " частотность: ", num/len(var_data))
+
 x = np.linspace(var_data[0] - 0.5, var_data[-1] + 0.5, 10000)
 
 y = [F(i) for i in x]
@@ -95,15 +119,9 @@ plt.plot(x, y, 'b')
 plt.show()
 
 
-n = 6
-h = (var_data_without_copies[-1] - var_data_without_copies[0]) / n
-index = [var_data_without_copies[0] + h * i for i in range(n)]
-values = [F(var_data_without_copies[0] + h * (i + 1) + 0.001) - F(var_data_without_copies[0] + h * (i - 0.001)) for i in range(n)]
-plt.bar(index,values, width=h-0.01)
+plt.bar(arr_fr1, arr_fr2)
 plt.show()
 
 
-x = var_data_without_copies
-y = [p_arr[i] for i in var_data_without_copies]
-plt.plot(x, y, marker="o")
+plt.plot(arr_fr1, arr_fr2, marker="o")
 plt.show()
