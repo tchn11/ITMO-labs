@@ -64,6 +64,8 @@
 + [Нелинейные уравнения](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/nonlinear_equations) 
 + [Численное интегрирование](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/numerical%20integration)
 + [Аппроксимация функции МНК](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/approximation)
++ [Интерполяция функции (методы Лагранжа, Ньютона, Стирлинга, Бесселя)](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/interpolation)
++ [Решение ОДУ (методы Рунге-Кутта, Адамса)](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/computational%20mathematics/Cauchi%20problem)
 
 ### Методы и средства программной инженерии
 + [1 лабораторная](https://drive.google.com/file/d/1sKBpwf5uarhDeyq492nrXkobdqR6O143/view)
@@ -71,9 +73,12 @@
 
 ### Теория вероятностей
 + [5 практическая](https://github.com/tchn11/ITMO-labs/blob/main/2nd%20year/probability%20theory/5th%20practice)
++ [6 практическая](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/probability%20theory/6th%20practice%20and%202nd%20homework)
 
 ### Встроенные системы
 + [Онлайн-курс](https://github.com/zavar152/EmbeddedSystemsITMO2022)
+
+[Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
 ![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
 
