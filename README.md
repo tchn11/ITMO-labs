@@ -70,6 +70,8 @@
 ### Методы и средства программной инженерии
 + [1 лабораторная](https://drive.google.com/file/d/1sKBpwf5uarhDeyq492nrXkobdqR6O143/view)
 + [2 лабораторная](https://drive.google.com/file/d/1UQSgmMz0XZ9DdIvX7WoIDvRW1gfzVBvy/view)
++ 3 лабораторная
++ [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/mispi/Lab4/Msp4-console-main)
 
 ### Теория вероятностей
 + [5 практическая](https://github.com/tchn11/ITMO-labs/blob/main/2nd%20year/probability%20theory/5th%20practice)
