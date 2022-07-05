@@ -72,6 +72,7 @@
 + [2 лабораторная](https://drive.google.com/file/d/1UQSgmMz0XZ9DdIvX7WoIDvRW1gfzVBvy/view)
 + 3 лабораторная
 + [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/2nd%20year/mispi/Lab4/Msp4-console-main)
++ [Билеты](https://docs.google.com/document/d/1c0DwyU8BoDqBTpbkLZCuj9Y4opLXvUORerJZyf8LB_s/edit?usp=drivesdk) 
 
 ### Теория вероятностей
 + [5 практическая](https://github.com/tchn11/ITMO-labs/blob/main/2nd%20year/probability%20theory/5th%20practice)
