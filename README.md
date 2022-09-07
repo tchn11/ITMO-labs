@@ -81,6 +81,11 @@
 ### Встроенные системы
 + [Онлайн-курс](https://github.com/zavar152/EmbeddedSystemsITMO2022)
 
+***
+# 3 курс
+### Системы искусственного интеллекта
++ [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab1)
+
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
 ![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
