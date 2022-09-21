@@ -85,6 +85,7 @@
 # 3 курс
 ### Системы искусственного интеллекта
 + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab1)
++ [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab2)
 
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
