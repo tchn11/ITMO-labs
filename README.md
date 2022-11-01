@@ -86,6 +86,16 @@
 ### Системы искусственного интеллекта
 + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab1)
 + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab2)
++ [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab3)
++ [Рубежка 1](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/artificial%20intelligence%20systems/%D0%A0%D1%83%D0%B1%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%201.pdf)
+
+ ### Информационные системы и базы данных
+ + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab1)
+ + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab2)
+ + [Курсовая работа]()
+ 
+ ### Операционные системы
+ + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab1)
 
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
