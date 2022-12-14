@@ -211,7 +211,7 @@ BEGIN
 END
 $$ language plpgsql;
 
-CREATE OR REPLACE FUNCTION BuyMagicItem(pl_id INTEGER, mg_id INTEGER)
+CREATE OR REPLACE FUNCTION BuyFromMerlin(pl_id INTEGER, mg_id INTEGER)
     RETURNS VOID
 AS
 $$
@@ -219,6 +219,12 @@ BEGIN
     IF(NOT EXISTS(SELECT * FROM Magic_items WHERE SPELL_ID = mg_id))
     THEN
         RAISE notice'Wrong item ID';
+        RETURN;
+    END IF;
+
+    IF(NOT EXISTS(SELECT * FROM Merlin WHERE ITEM_ID = mg_id))
+    THEN
+        RAISE notice'Merlin doesnt sell this';
         RETURN;
     END IF;
 
@@ -238,66 +244,123 @@ BEGIN
 
     INSERT INTO Singer_Storage (ITEM_ID, ITEM_TYPE)
     VALUES (mg_id, 'MAGIC ITEM');
+
+    DELETE FROM Merlin WHERE ITEM_ID = mg_id;
 END
 $$ language plpgsql;
 
-CREATE OR REPLACE FUNCTION BuyArmor(pl_id INTEGER, arm_id INTEGER)
+CREATE OR REPLACE FUNCTION BuyHephaestus(pl_id INTEGER, wp_id INTEGER,it_type ITEM_TYPE_ENUM)
     RETURNS VOID
 AS
 $$
 BEGIN
-    IF(NOT EXISTS(SELECT * FROM Armor WHERE ARMOR_ID = arm_id))
+    IF (NOT EXISTS(SELECT * FROM Hephaestus WHERE ITEM_ID = wp_id AND ITEM_TYPE = it_type))
     THEN
-        RAISE notice'Wrong item ID';
-        RETURN;
+        RAISE notice'Hephaestus doesnt sell this item';
     END IF;
 
-    IF(EXISTS(SELECT * FROM Singer_Storage WHERE ITEM_ID = arm_id AND ITEM_TYPE = 'ARMOR'))
+    IF(EXISTS(SELECT * FROM Singer_Storage WHERE ITEM_ID = wp_id AND ITEM_TYPE = it_type))
     THEN
         RAISE notice'Item id already bought';
         RETURN;
     END IF;
 
-    IF (GetItemDiamondCost(arm_id, 'ARMOR') > (SELECT DIAMONDS FROM Player WHERE PLAYER_ID = pl_id))
+    IF (GetItemDiamondCost(wp_id, it_type) > (SELECT DIAMONDS FROM Player WHERE PLAYER_ID = pl_id))
     THEN
         RAISE notice'Not enough diamonds';
         RETURN;
     END IF;
 
-    UPDATE Player SET DIAMONDS = Player.DIAMONDS - GetItemDiamondCost(arm_id, 'ARMOR') WHERE PLAYER_ID = pl_id;
+    UPDATE Player SET DIAMONDS = Player.DIAMONDS - GetItemDiamondCost(wp_id, it_type) WHERE PLAYER_ID = pl_id;
 
     INSERT INTO Singer_Storage (ITEM_ID, ITEM_TYPE)
-    VALUES (arm_id, 'ARMOR');
+    VALUES (wp_id, it_type);
+
+    DELETE FROM Hephaestus WHERE ITEM_TYPE = it_type AND ITEM_ID = wp_id;
 END
 $$ language plpgsql;
 
-CREATE OR REPLACE FUNCTION BuyWeapons(pl_id INTEGER, wp_id INTEGER)
+CREATE OR REPLACE FUNCTION RerollMerlin()
     RETURNS VOID
 AS
 $$
+DECLARE
+    id INTEGER;
 BEGIN
-    IF(NOT EXISTS(SELECT * FROM Weapon WHERE WEAPON_ID = wp_id))
-    THEN
-        RAISE notice'Wrong item ID';
-        RETURN;
-    END IF;
+    WHILE (SELECT count(*) FROM Merlin) < 3
+    LOOP
+        id := (SELECT SPELL_ID FROM Magic_items WHERE
+            (NOT EXISTS(SELECT * FROM Merlin WHERE SPELL_ID = ITEM_ID))
+            AND (NOT EXISTS(SELECT * FROM Singer_Storage WHERE SPELL_ID = ITEM_ID AND ITEM_TYPE = 'MAGIC ITEM'))
+            ORDER BY random() LIMIT 1);
 
-    IF(EXISTS(SELECT * FROM Singer_Storage WHERE ITEM_ID = wp_id AND ITEM_TYPE = 'WEAPON'))
-    THEN
-        RAISE notice'Item id already bought';
-        RETURN;
-    END IF;
+        INSERT INTO Merlin (ITEM_ID, ITEM_TYPE) VALUES (id, 'MAGIC ITEM');
+    END LOOP;
+END
+$$ language plpgsql;
 
-    IF (GetItemDiamondCost(wp_id, 'WEAPON') > (SELECT DIAMONDS FROM Player WHERE PLAYER_ID = pl_id))
-    THEN
-        RAISE notice'Not enough diamonds';
-        RETURN;
-    END IF;
+CREATE OR REPLACE FUNCTION RerollHephaestus()
+    RETURNS VOID
+AS
+$$
+DECLARE
+    id1 INTEGER;
+    id2 INTEGER;
+BEGIN
+    WHILE (SELECT count(*) FROM Hephaestus) < 3
+        LOOP
+            id1 := (SELECT ARMOR_ID FROM Armor WHERE
+                (NOT EXISTS(SELECT * FROM Hephaestus WHERE ARMOR_ID = ITEM_ID))
+                AND (NOT EXISTS(SELECT * FROM Singer_Storage WHERE ARMOR_ID = ITEM_ID AND ITEM_TYPE = 'ARMOR'))
+                ORDER BY random() LIMIT 1);
 
-    UPDATE Player SET DIAMONDS = Player.DIAMONDS - GetItemDiamondCost(wp_id, 'WEAPON') WHERE PLAYER_ID = pl_id;
+            id2 := (SELECT WEAPON_ID FROM Weapon WHERE
+                (NOT EXISTS(SELECT * FROM Hephaestus WHERE WEAPON_ID = ITEM_ID))
+                AND (NOT EXISTS(SELECT * FROM Singer_Storage WHERE WEAPON_ID = ITEM_ID AND ITEM_TYPE = 'WEAPON'))
+                ORDER BY random() LIMIT 1);
 
-    INSERT INTO Singer_Storage (ITEM_ID, ITEM_TYPE)
-    VALUES (wp_id, 'WEAPON');
+            IF (random() > 0.5)
+            THEN
+                INSERT INTO Hephaestus (ITEM_ID, ITEM_TYPE) VALUES (id1, 'ARMOR');
+            ELSE
+                INSERT INTO Hephaestus (ITEM_ID, ITEM_TYPE) VALUES (id2, 'WEAPON');
+            END IF;
+        END LOOP;
+END
+$$ language plpgsql;
+
+CREATE OR REPLACE FUNCTION RerollDiamondDealler()
+    RETURNS VOID
+AS
+$$
+DECLARE
+    id1 INTEGER;
+    id2 INTEGER;
+    id3 INTEGER;
+    rand FLOAT;
+BEGIN
+    DELETE FROM Diamond_dealer;
+
+    WHILE (SELECT count(*) FROM Diamond_dealer) < 3
+        LOOP
+            id1 := (SELECT ARMOR_ID FROM Armor ORDER BY random() LIMIT 1);
+
+            id2 := (SELECT WEAPON_ID FROM Weapon ORDER BY random() LIMIT 1);
+
+            id3 := (SELECT SPELL_ID FROM Magic_items ORDER BY random() LIMIT 1);
+
+            rand := random();
+
+            IF (rand < 0.33)
+            THEN
+                INSERT INTO Diamond_dealer (ITEM_ID, ITEM_TYPE) VALUES (id1, 'ARMOR');
+            ELSEIF (rand < 0.66)
+            THEN
+                INSERT INTO Diamond_dealer (ITEM_ID, ITEM_TYPE) VALUES (id2, 'WEAPON');
+            ELSE
+                INSERT INTO Diamond_dealer (ITEM_ID, ITEM_TYPE) VALUES (id3, 'MAGIC ITEM');
+            END IF;
+        END LOOP;
 END
 $$ language plpgsql;
 
@@ -380,6 +443,8 @@ BEGIN
     END IF;
 
     UPDATE Player SET DIAMONDS = Player.DIAMONDS - GetItemDiamondCost(pl_id, it_type) WHERE PLAYER_ID = pl_id;
+
+    DELETE FROM Diamond_dealer where ITEM_TYPE = it_type and ITEM_ID = it_id;
 
     INSERT INTO Player_storage (PLAYER_ID, ITEM_ID, ITEM_TYPE)
     VALUES (pl_id, it_id, it_type);
