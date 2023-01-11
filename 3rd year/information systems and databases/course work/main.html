@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <title>Main</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="username"></div>
+    <div id="diamonds"></div>
+    <div id="gold"></div>
+    <div id="health"></div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    Инвентарь:
+                </td>
+                <td id="inventory">
+
+                </td>
+            </tr>
+        </table>
+        <table id="singer_table">
+            <tr>
+                <td colspan="3">
+                    <img id="singer_image" src="image/Shopkeeper-2.jpg">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td id="it1_text">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="it1_textfield" type="text" placeholder="Ваша цена" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                                <br>
+                                <input id="it1_button" type="button" value="Купить">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td id="it2_text">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="it2_textfield" type="text" placeholder="Ваша цена" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                                <br>
+                                <input id="it2_button" type="button" value="Купить">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td id="it3_text">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="it3_textfield" type="text" placeholder="Ваша цена" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');">
+                                <br>
+                                <input id="it3_button" type="button" value="Купить">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="next_floor_div">
+        <input id="next_floor" type="button" value='Перейти на следующий этаж'>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/main_script.js"></script>
+</body>
+</html>

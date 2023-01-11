@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url("EpilepsySans.ttf") format('truetype');
+}
+
+html {
+    background-image: url("../image/background.jpg");
+    color: white;
+    font-family: 'Pixel';
+}

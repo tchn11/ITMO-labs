@@ -1,0 +1,17 @@
+#stats-div {
+    margin: 0;
+    position: relative;
+    width: 200px;
+    top: 0;
+    left: 45%;
+    margin-right: -50%;
+}
+
+body {
+    font-size: 15px;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+}

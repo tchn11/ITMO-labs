@@ -1,0 +1,8 @@
+#main-div {
+    margin: 0;
+    position: absolute;
+    width: 200px;
+    top: 45%;
+    left: 45%;
+    margin-right: -50%;
+}
