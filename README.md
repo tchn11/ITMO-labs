@@ -92,7 +92,7 @@
  ### Информационные системы и базы данных
  + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab1)
  + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab2)
- + [Курсовая работа]()
+ + [Курсовая работа](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/course%20work)
  
  ### Операционные системы
  + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab1)
