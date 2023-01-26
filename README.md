@@ -87,15 +87,25 @@
 + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab1)
 + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab2)
 + [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/artificial%20intelligence%20systems/lab3)
++ [4 лабораторная](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/artificial%20intelligence%20systems/%D0%9E%D1%82%D1%87%D1%91%D1%82%20%D0%A1%D0%98%D0%98%204%20%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F.pdf)
++ [5 лабораторная](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/artificial%20intelligence%20systems/%D0%9E%D1%82%D1%87%D1%91%D1%82%20%D0%A1%D0%98%D0%98%205%20%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F.pdf)
 + [Рубежка 1](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/artificial%20intelligence%20systems/%D0%A0%D1%83%D0%B1%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%201.pdf)
 
  ### Информационные системы и базы данных
  + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab1)
  + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab2)
+ + [3 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab3)
+ + [4 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/lab4)
  + [Курсовая работа](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/information%20systems%20and%20databases/course%20work)
+ + [Экзамен](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/information%20systems%20and%20databases/%D1%8D%D0%BA%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD.jpg)
+ 
+ ### Архитектура компьютера
+ + [Презентация к 1 лабораторной](https://github.com/tchn11/ITMO-labs/blob/main/3rd%20year/computer%20system%20architecture/KNOB%20attack.pptx)
+ + [3 лабораторная](https://gitlab.se.ifmo.ru/thcn11/csa_lab3)
  
  ### Операционные системы
  + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab1)
+ + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab2)
 
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
