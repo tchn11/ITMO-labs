@@ -106,6 +106,23 @@
  ### Операционные системы
  + [1 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab1)
  + [2 лабораторная](https://github.com/tchn11/ITMO-labs/tree/main/3rd%20year/operating%20systems/lab2)
+ 
+ ### Тестирование программного обеспечения
+ + [1 лабораторная](https://github.com/Holdinalt/testing_lab_1)
+ + [2 лабораторная](https://github.com/Holdinalt/testing_lab_2)
+ 
+ ### Системы ввода-вывода
+ + [1 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab1)
+ + [2 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab2)
+ + [3 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab3)
+ 
+ ### Компиляторы
+ 
+ ### Функциональная схемотехника
+ 
+ ### Системное программное обеспечение
+ 
+ ### Компьютерные сети
 
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
