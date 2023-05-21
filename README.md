@@ -110,19 +110,26 @@
  ### Тестирование программного обеспечения
  + [1 лабораторная](https://github.com/Holdinalt/testing_lab_1)
  + [2 лабораторная](https://github.com/Holdinalt/testing_lab_2)
+ + [3 лабораторная](https://github.com/Holdinalt/testing_lab_3)
  
  ### Системы ввода-вывода
  + [1 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab1)
  + [2 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab2)
  + [3 лабораторная](https://github.com/tchn11/IO_labs/tree/main/lab3)
  
- ### Компиляторы
+ ### Разработка компиляторов
+ + [1 лабораторная](https://drive.google.com/file/d/1E_ZaMgfviMn9rGvIkfqXSQmXI_wNaVSx/view?usp=share_link)
+ + [2 лабораторная](https://drive.google.com/file/d/1Q7kc0_bCK3_-Lb6KUWgPx3J_JqXAvEhV/view?usp=share_link)
+ + [Проект, 1 часть](https://github.com/Holdinalt/compilers)
  
  ### Функциональная схемотехника
- 
- ### Системное программное обеспечение
+ + [1 лабораторная](https://docs.google.com/document/d/1opgvHOdSsjs0aN4RTXcNtDt8SLge4kdH/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
+ + [2 лабораторная](https://docs.google.com/document/d/1M-XrB7lAjHJc7YAx7qCNNHoCGfn16rvG/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
  
  ### Компьютерные сети
+ + [1 лабораторная](https://drive.google.com/file/d/1QTXbP06fXVqfHX0tpQDfUEKZKPJgd0tX/view?usp=share_link)
+ + [2 лабораторная](https://drive.google.com/file/d/18cdpLCyWe73kONh_IzrELFo2MJcb6p6v/view?usp=share_link)
+ + [3 лабораторная](https://docs.google.com/document/d/1QkZ5cxwKeymej8mMLxCCafwCRE0SdyCi/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
 
 [Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 
