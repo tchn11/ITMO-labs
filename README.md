@@ -125,16 +125,36 @@
  ### Функциональная схемотехника
  + [1 лабораторная](https://docs.google.com/document/d/1opgvHOdSsjs0aN4RTXcNtDt8SLge4kdH/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
  + [2 лабораторная](https://docs.google.com/document/d/1M-XrB7lAjHJc7YAx7qCNNHoCGfn16rvG/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
+ + [4 лабораторная](https://drive.google.com/file/d/1IEmkqcmRdgJHvLxuetxkYqkDCl2B46Qe/view?usp=drive_link)
  
  ### Компьютерные сети
  + [1 лабораторная](https://drive.google.com/file/d/1QTXbP06fXVqfHX0tpQDfUEKZKPJgd0tX/view?usp=share_link)
  + [2 лабораторная](https://drive.google.com/file/d/18cdpLCyWe73kONh_IzrELFo2MJcb6p6v/view?usp=share_link)
  + [3 лабораторная](https://docs.google.com/document/d/1QkZ5cxwKeymej8mMLxCCafwCRE0SdyCi/edit?usp=share_link&ouid=112019496150609726565&rtpof=true&sd=true)
 
-[Свалка](https://drive.google.com/drive/u/1/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
+***
+# 4 курс
 
-![obi-wan-sarcasm](https://user-images.githubusercontent.com/81990607/155123051-eef255bd-0261-4f29-a505-c2090c3a195d.gif)
+### Инфобез
++ [Лабораторная 1.1](https://drive.google.com/file/d/1eObBKb99cdlISZ1NUDl8mhC0taJwVBAI/view?usp=drive_link)
++ [Лабораторная 1.2](https://drive.google.com/file/d/1JHwR34GeWKMPRvL_NgAQAhDgCOq1Um25/view?usp=drive_link)
++ [Лабораторная 2.1](https://drive.google.com/file/d/15ULdYv2xWyQWHxzGKRro-x9b9Mz9ZcEJ/view?usp=drive_link)
++ [Лабораторная 2.2](https://drive.google.com/file/d/1c7qFsHAhQ8kYh9qvxFMssL9dFHvDqg_5/view?usp=drive_link)
++ [Лабораторная 2.3](https://drive.google.com/file/d/101FkaPW5ubBDY4AMBumhtWFGo_IXAt8O/view?usp=drive_link)
 
+### Моделирование
++ [1 лабораторная](https://drive.google.com/file/d/1bRvjvurfrQxNNvQ4eiz-PCh3sn7lGfQT/view?usp=drive_link)
++ [2 лабораторная](https://drive.google.com/file/d/1hw_OSxjQNt_MxO0D8ug17EulWiCPPXJM/view?usp=drive_link)
 
+### Экономика программной инженерии
++ [1 лабораторная](https://docs.google.com/document/d/1SOtG-LlUoOpeRaImWfEecn3Ha-BBIAKo/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
 
+### Функциональное программирование
 
+### Разработка сетевых приложений
+
+### Проектирование вычислительный систем
+
+### Распределённые вычисления
+
+### Технологии виртуализации
