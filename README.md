@@ -156,10 +156,10 @@
 + [4 лабораторная](https://github.com/senina-m/fp-4)
 
 ### Выпускная квалификационная работа и практики
-+ [ВКР]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1BDcX6AlqXVd4EhjgikwEj0aELA9xFOba/view?usp=drive_link))
-+ [Учебная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1HvEn--r3WGtcgR2nJVyjWx0a4JYr83PQ/view?usp=drive_link))
-+ [Производственная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1zehgk48IWqGxhtrAA_CerrVDqnDXfFvc/view?usp=drive_link))
-+ [Преддипломная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1yzYvNV9r7BJRTfUvdhySShsnRFinuB5j/view?usp=drive_link))
++ [ВКР](https://drive.google.com/file/d/1BDcX6AlqXVd4EhjgikwEj0aELA9xFOba/view?usp=drive_link)
++ [Учебная практика](https://drive.google.com/file/d/1HvEn--r3WGtcgR2nJVyjWx0a4JYr83PQ/view?usp=drive_link)
++ [Производственная практика](https://drive.google.com/file/d/1zehgk48IWqGxhtrAA_CerrVDqnDXfFvc/view?usp=drive_link)
++ [Преддипломная практика](https://drive.google.com/file/d/1yzYvNV9r7BJRTfUvdhySShsnRFinuB5j/view?usp=drive_link)
 + [Презентация к ВКР](https://drive.google.com/file/d/1WBG-6uuQzGlDi3ScbO4YDdbEiV30Y7jX/view?usp=drive_link)
 
 По поводу других работ можно писать [сюда](https://t.me/knhnn).
