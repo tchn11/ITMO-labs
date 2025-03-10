@@ -150,11 +150,16 @@
 + [1 лабораторная](https://docs.google.com/document/d/1SOtG-LlUoOpeRaImWfEecn3Ha-BBIAKo/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
 
 ### Функциональное программирование
++ [1 лабораторная](https://github.com/tchn11/fp1)
++ [2 лабораторная](https://github.com/tchn11/fp2)
++ [3 лабораторная](https://github.com/tchn11/fp3)
++ [4 лабораторная](https://github.com/senina-m/fp-4)
 
-### Разработка сетевых приложений
+### Выпускная квалификационная работа и практики
++ [ВКР]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1BDcX6AlqXVd4EhjgikwEj0aELA9xFOba/view?usp=drive_link))
++ [Учебная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1HvEn--r3WGtcgR2nJVyjWx0a4JYr83PQ/view?usp=drive_link))
++ [Производственная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1zehgk48IWqGxhtrAA_CerrVDqnDXfFvc/view?usp=drive_link))
++ [Преддипломная практика]([https://drive.google.com/drive/folders/1lerS4F_1hCj4gG5J0WGQNEmPFHFoQct0](https://drive.google.com/file/d/1yzYvNV9r7BJRTfUvdhySShsnRFinuB5j/view?usp=drive_link))
++ [Презентация к ВКР](https://drive.google.com/file/d/1WBG-6uuQzGlDi3ScbO4YDdbEiV30Y7jX/view?usp=drive_link)
 
-### Проектирование вычислительный систем
-
-### Распределённые вычисления
-
-### Технологии виртуализации
+По поводу других работ можно писать [сюда](https://t.me/knhnn).
