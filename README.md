@@ -148,12 +148,21 @@
 
 ### Экономика программной инженерии
 + [1 лабораторная](https://docs.google.com/document/d/1SOtG-LlUoOpeRaImWfEecn3Ha-BBIAKo/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
++ [2 лабораторная](https://docs.google.com/document/d/1BDtIsZOwLy9RjH4ammrNSLWJ1Gm319FJG_u22uII1yQ/edit?usp=sharing)
+
+### Виртуализация
++ [1 лабораторная](https://docs.google.com/document/d/1gmJOKQndnc2SqZJUc-WjH2tf-Rpj9e-E/edit?usp=drive_link&ouid=112487746099715545222&rtpof=true&sd=true)
++ [2 лабораторная](https://docs.google.com/document/d/1owt47Bb2xiJRLblh9iyY3vClXdDvvHFf/edit?usp=drive_link&ouid=112487746099715545222&rtpof=true&sd=true)
++ [3 лабораторная](https://docs.google.com/document/d/1dRv44pmyrGanq0Ruq8C5q-ZvhrK_5TB2/edit?tab=t.0#heading=h.gjdgxs)
++ [4 лабораторная](https://docs.google.com/document/d/15inH4upkjOeCS9zNT31Jq5nzr1pKuYmC/edit?usp=drive_link&ouid=112487746099715545222&rtpof=true&sd=true)
++ [5 лабораторная](https://docs.google.com/document/d/1Poby5Z7KLjBnufnUrvzVLQ6jCIrPWWZ2/edit?usp=drive_link&ouid=112487746099715545222&rtpof=true&sd=true)
 
 ### Функциональное программирование
 + [1 лабораторная](https://github.com/tchn11/fp1)
 + [2 лабораторная](https://github.com/tchn11/fp2)
 + [3 лабораторная](https://github.com/tchn11/fp3)
 + [4 лабораторная](https://github.com/senina-m/fp-4)
++ [Зачётная свалка](https://docs.google.com/document/d/1h1Qd1jtnzRE8vYqZZ-DYIsemTdr4iOxdGblnTaJ5UEo/edit?usp=sharing)
 
 ### Выпускная квалификационная работа и практики
 + [ВКР](https://drive.google.com/file/d/1BDcX6AlqXVd4EhjgikwEj0aELA9xFOba/view?usp=drive_link)
