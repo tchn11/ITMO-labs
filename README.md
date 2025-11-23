@@ -171,6 +171,20 @@
 + [Преддипломная практика](https://drive.google.com/file/d/1yzYvNV9r7BJRTfUvdhySShsnRFinuB5j/view?usp=drive_link)
 + [Презентация к ВКР](https://drive.google.com/file/d/1WBG-6uuQzGlDi3ScbO4YDdbEiV30Y7jX/view?usp=drive_link)
 
+[Глобальная свалка](https://drive.google.com/drive/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
 По поводу других работ можно писать [сюда](https://t.me/knhnn).
 
-[Свалка](https://drive.google.com/drive/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
+***
+# Магистратура 1 курс
+
+### Организация вычислительных систем
++ [1 лабораторная](https://docs.google.com/document/d/1qW___-bqI1G93_xKjd_dQbaUWdYB0uqu/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
++ [2 лабораторная](https://docs.google.com/document/d/1of3AqkhAFZunwn-DywlhUA_acIqrab-s/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
++ [3 лабораторная](https://docs.google.com/document/d/1IV_VEwbnyDLco0dq3lDJ5HArIZu_JxHk/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
++ [Презентация](https://docs.google.com/presentation/d/1dVklrEwpq7Dzg6yR5sdmaT5c8fbs9Zp7oxvUXalugPI/edit?usp=sharing)
+
+### Проектирование систем на кристалле
+
+### Языки описания аппаратуры и архитектуры
+
+### Языки программирования
