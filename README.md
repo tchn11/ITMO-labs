@@ -172,6 +172,7 @@
 + [Презентация к ВКР](https://drive.google.com/file/d/1WBG-6uuQzGlDi3ScbO4YDdbEiV30Y7jX/view?usp=drive_link)
 
 [Глобальная свалка](https://drive.google.com/drive/folders/1rwt59ioU5lI57R_EwEHAS4tF80RG2X3K)
+
 По поводу других работ можно писать [сюда](https://t.me/knhnn).
 
 ***
