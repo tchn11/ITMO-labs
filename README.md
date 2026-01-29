@@ -185,7 +185,10 @@
 + [Презентация](https://docs.google.com/presentation/d/1dVklrEwpq7Dzg6yR5sdmaT5c8fbs9Zp7oxvUXalugPI/edit?usp=sharing)
 
 ### Проектирование систем на кристалле
-
-### Языки описания аппаратуры и архитектуры
++ [1 лабораторная](https://github.com/tchn11/lab-riscv-asm)
++ [3 лабораторная](https://github.com/tchn11/scr1/tree/lab_scr1_sim)
 
 ### Языки программирования
++ [1 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab1)
++ [2 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab2)
++ [3 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab3)
