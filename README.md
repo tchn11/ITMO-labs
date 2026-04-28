@@ -181,7 +181,7 @@
 ### Организация вычислительных систем
 + [1 лабораторная](https://docs.google.com/document/d/1qW___-bqI1G93_xKjd_dQbaUWdYB0uqu/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
 + [2 лабораторная](https://docs.google.com/document/d/1of3AqkhAFZunwn-DywlhUA_acIqrab-s/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
-+ [3 лабораторная](https://docs.google.com/document/d/1IV_VEwbnyDLco0dq3lDJ5HArIZu_JxHk/edit?usp=sharing&ouid=112487746099715545222&rtpof=true&sd=true)
++ [3 лабораторная](https://docs.google.com/document/d/1MC8A0cM5HEGJ_wBdHSXk4stBT6_Truj7/edit?usp=drivesdk&ouid=112487746099715545222&rtpof=true&sd=true)
 + [Презентация](https://docs.google.com/presentation/d/1dVklrEwpq7Dzg6yR5sdmaT5c8fbs9Zp7oxvUXalugPI/edit?usp=sharing)
 
 ### Проектирование систем на кристалле
@@ -192,3 +192,25 @@
 + [1 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab1)
 + [2 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab2)
 + [3 лабораторная](https://gitlab.se.ifmo.ru/thcn11/programming-languages-master/-/tree/lab3)
+
+### Языки описания аппаратуры и архитектуры
++ [1 лабораторная](https://docs.google.com/document/d/11xsriGYvtnP9c7TafoJ0sZcO7Cxo7VIelkIVW6Oouto/edit?usp=drivesdk)
++ [2 лабораторная](https://docs.google.com/document/d/1FPsT_MqscsngQPWfJBK2bL9uCICgHA4wjL3kLcAIneM/edit?usp=drivesdk)
++ [3 лабораторная](https://docs.google.com/document/d/1i_WdZ109t_NZB2jvgvomQo89vzTSBZX8GROW1zfOOZ0/edit?usp=drivesdk)
++ [4 лабораторная](https://docs.google.com/document/d/1xsmU5nMlxyGZx3djUVVQJohrd-j8nOMIrIHahKigEIo/edit?usp=drivesdk)
+
+### Проектирование встроенных систем
++ [1 лабораторная](https://docs.google.com/document/d/148DexkcR6pBdWv1XtmgqfknHlcUNAaeUaSD9puw7Enw/edit?usp=drivesdk)
++ [2 лабораторная](https://docs.google.com/document/d/1K2OIitpYMOV2rf6tEbT5ukW5Ui_GxvwRPH9SP0VNlbU/edit?usp=drivesdk)
++ [Презентация](https://docs.google.com/presentation/d/1tGw0wYNZGcsuUi2653ft6mcsbfrZp01jGTqh4p18Pc0/edit?usp=drivesdk)
+
+### Моделирование встроенныж систем
++ [Презентация доклада](https://docs.google.com/presentation/d/137WsVSIfUUrF9LYiHBkUCxv-k39i3cV7mLiMBL9XWgQ/edit?slide=id.p#slide=id.p)
+
+### Администрирование встроенных систем
++ [2.1 лабораторная](https://docs.google.com/document/d/1bBgwCNeBPw8wXwwzaqS1EMPaZhafkdABmCslSQj0rOQ/edit?usp=drivesdk)
++ [3.1 лабораторная](https://docs.google.com/document/d/1auLY6GTCyYIQ0NfTwGXkRmZd-FnSrEF2penk4tXenwk/edit?usp=drivesdk)
++ [4.1 лабораторная](https://docs.google.com/document/d/18NKtBfiiNuLaGeGoGnY9iU65u6rgtLHDip5KV0kZJEo/edit?usp=drivesdk)
+
+### Научно-исследовательские работы
++ 1 семестр
